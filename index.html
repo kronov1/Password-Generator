@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de senha</h1>
+    <div id="generator">
+        <input class="password placeholderDontActive" type="text" placeholder="Marque pelo menos um!">
+        <div class="checkboxes-container">
+            <div class="label"><label><input type="checkbox" class="include-numbers"> Números</label></div>
+            <div class="label"><label><input type="checkbox" class="include-letters"> Letras</label></div>
+            <div class="label"><label><input type="checkbox" class="include-symbols"> Símbolos</label></div>
+            <div class="label"><label><input type="checkbox" class="include-uppercase"> Maiúscula</label></div>
+            <div class="label"><label><input type="checkbox" class="include-lowercase"> Minúscula</label></div>
+        </div>
+        <div>
+            <input class="password-length" type="number">
+            <button class="generate-btn">Gerar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
